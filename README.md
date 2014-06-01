@@ -1,6 +1,8 @@
 BCN Says
 =========
 
+You'll need nodejs ajsnd npm installed on your system.
+
 Installation
 --------------
 
