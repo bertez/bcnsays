@@ -28,7 +28,6 @@ try {
 	console.log('Using default configuration');
 }
 
-console.log(credentials);
 var twit = new twitter(credentials);
 
 // abaixo-esquerda - arriba-dereita [lon,lat,lon,lat]
