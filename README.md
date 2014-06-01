@@ -18,7 +18,7 @@ Go to [http://dev.twitter.com](http://dev.twitter.com), log with your user, crea
 node app.js
 ```
 
-Go to http://localhost:5002 and everything should be working.
+Go to [http://localhost:5002](http://localhost:5002) and everything should be working.
 
 
 License
