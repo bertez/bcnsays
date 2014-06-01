@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BCN Says</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="/static/style.css" type="text/css" media="all" />
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+	<div id="intro" class="intro">
+
+		<div class="popup">
+			<h1>BCN Says</h1>
+			<p>
+				Big cities are a constant buzz. Barcelona generates millions of sounds everyday. 
+				Imagine you can conduct all these sounds into an urban symphony. 
+				Come in to play while listening what Barcelona has to say.
+			</p>
+
+			<button id="enter">Enter</button>
+		</div>
+
+	</div>
+
+	<div id="graphic" class="graphic">
+
+		<div class="popup">
+			<h1>Barcelona acoustic levels</h1>
+			<p>
+			The OMS considers <strong>50dB as the highest desirable LEVEL</strong>
+			</p>
+
+			<button id="close">Close</button>
+		</div>
+
+	</div>
+
+	<h1 class="logo">BCN says</h1>
+
+	<div class="content-reference">
+		<div class="map-piece" id="cv"><div><strong>Foo</strong> texto tweet</div></div>
+		<div class="map-piece" id="ei"><div><strong>Foo</strong> texto tweet</div></div>
+		<div class="map-piece" id="gr"><div><strong>Foo</strong> texto tweet</div></div>
+		<div class="map-piece" id="hg"><div><strong>Foo</strong> texto tweet</div></div>
+		<div class="map-piece" id="lc"><div><strong>Foo</strong> texto tweet</div></div>
+		<div class="map-piece" id="nb"><div><strong>Foo</strong> texto tweet</div></div>
+		<div class="map-piece" id="sa"><div><strong>Foo</strong> texto tweet</div></div>
+		<div class="map-piece" id="sm"><div><strong>Foo</strong> texto tweet</div></div>
+		<div class="map-piece" id="sn"><div><strong>Foo</strong> texto tweet</div></div>
+		<div class="map-piece" id="sr"><div><strong>Foo</strong> texto tweet</div></div>
+	</div>
+
+	<div class="icon infog" id="infog"></div>
+	<div class="icon twitter" id="twitter"></div>
+	<div class="icon music" id="music"></div>
+
+	<div id="sounds" class="sounds">
+		<ul>
+			<li data-id="bs1">Sound 1</li>
+			<li data-id="bs2">Sound 2</li>
+			<li data-id="bs3">Sound 3</li>
+		</ul>
+	</div>
+
+	<div id="log" class="log">
+
+	</div>
+
+	<div id="tweetlist" class="tweetlist">
+
+	</div>
+
+	<div class="credits">
+		Developed during the Barcelona Interdocs Popathon on may 31th, 2014 by Irene Gil, Océane Apffel-Font, Andrea Traldi, Lucia Andújar, Cláudio Silva and Berto Yáñez. <br /><a href="https://github.com/bertez/bcnsays">Source code available on github</a>
+
+		<div class="share">
+			<a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+		</div>
+	</div>
+
+	<audio id="city" loop>
+		<source src="/static/audio/city.mp3" type="audio/mpeg" />
+		<source src="/static/audio/city.ogg" type="audio/ogg" />
+	</audio>
+
+	<audio id="bs1" loop>
+		<source src="/static/audio/rap.mp3" type="audio/mpeg" />
+		<source src="/static/audio/rap.ogg" type="audio/ogg" />
+	</audio>
+
+	<audio id="bs2" loop>
+		<source src="/static/audio/rock.mp3" type="audio/mpeg" />
+		<source src="/static/audio/rock.ogg" type="audio/ogg" />
+	</audio>
+
+	<audio id="bs3" loop>
+		<source src="/static/audio/rumba.mp3" type="audio/mpeg" />
+		<source src="/static/audio/rumba.ogg" type="audio/ogg" />
+	</audio>
+
+	<script src="//code.jquery.com/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/socket.io/socket.io.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/static/front.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

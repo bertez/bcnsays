@@ -1,0 +1,27 @@
+{
+  "name": "citysounds",
+  "version": "0.0.0",
+  "description": "Barcelona City Sounds",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bertez/citysounds.git"
+  },
+  "keywords": [
+    "twitter",
+    "websockets",
+    "node",
+    "visualization"
+  ],
+  "author": "Popathon Interdocs Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bertez/citysounds/issues"
+  },
+  "homepage": "https://github.com/bertez/citysounds",
+  "dependencies": {
+    "express": "^4.4.0",
+    "socket.io": "^1.0.2",
+    "twit": "^1.1.15"
+  }
+}
