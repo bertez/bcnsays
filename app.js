@@ -31,7 +31,6 @@ try {
 var twit = new twitter(credentials);
 
 // abaixo-esquerda - arriba-dereita [lon,lat,lon,lat]
-//var geoBox = [2.08912,41.34846,2.30576,41.45739];
 var geoBox = [2.05236,41.312268,2.308004,41.472663];
 
 var checkInBox = function (lon, lat) {
