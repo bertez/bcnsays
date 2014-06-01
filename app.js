@@ -59,7 +59,6 @@ stream.on('tweet', function (data) {
 				loc: data.coordinates,
 				url: 'https://twitter.com/' + data.user.screen_name + '/status/' + data.id_str,
 				image: data.user.profile_image_url,
-				place: data.place.name,
 				district: helpers.closest([lon, lat])
 			});
 		}
