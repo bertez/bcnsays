@@ -13,7 +13,7 @@ var io = require('socket.io').listen(server);
 
 app.use('/static', express.static(__dirname + '/static'));
 
-// Go to dev.twitter.com, create an app and fill the credentials with the generated api key 
+// Go to dev.twitter.com, create a new app and fill the credentials with the generated api key 
 var credentials = {
 	consumer_key: '',
 	consumer_secret: '',
