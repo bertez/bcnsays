@@ -67,7 +67,7 @@
 	$music.on('click', function() {
 		$sounds.fadeIn();
 	});
-	
+
 	var noise = $('#city')[0];
 	noise.volume = 0.1;
 	noise.play();
@@ -121,7 +121,9 @@
 	});
 
 	var start = function() {
+
 		switchMusic('bs1');
+
 		$.getJSON('/districts.json', function(districts) {
 			$.each(districts, function(i, d) {
 				tweetbox[d.id] = {
